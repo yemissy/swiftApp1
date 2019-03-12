@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4UO-HD-d0A">
-                                <rect key="frame" x="0.0" y="51" width="375" height="453.5"/>
+                                <rect key="frame" x="0.0" y="51" width="375" height="459.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7b-Og-WvB">
                                         <rect key="frame" x="143.5" y="0.0" width="88" height="20.5"/>
@@ -46,8 +46,8 @@
                                             <outletCollection property="gestureRecognizers" destination="bdp-Oy-ppW" appends="YES" id="kER-ee-oTt"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GVb-rM-fw4" customClass="RatingControl" customModule="FoodTrackerApp" customModuleProvider="target">
-                                        <rect key="frame" x="61.5" y="409.5" width="252" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GVb-rM-fw4" customClass="RatingControl" customModule="FoodTrackerApp" customModuleProvider="target">
+                                        <rect key="frame" x="61.5" y="409.5" width="252" height="50"/>
                                     </stackView>
                                 </subviews>
                                 <gestureRecognizers/>
